@@ -1,0 +1,65 @@
+mysql> SELECT Address.city, Address.country FROM Address WHERE Address.country='Canada' OR Address.country='Austria' OR Address.country='Isle Of Man'
+    -> OR Address.country='Ireland' OR Address.country='Japan';
++----------------+-------------+
+| city           | country     |
++----------------+-------------+
+| Dubbo          | Austria     |
+| Ceyhan         | Isle of Man |
+| Jackson        | Ireland     |
+| Belfast        | Isle of Man |
+| Tauranga       | Austria     |
+| Rzeszów        | Japan       |
+| Cartago        | Ireland     |
+| Cagnes-sur-Mer | Ireland     |
+| Ceyhan         | Austria     |
+| Houston        | Japan       |
+| Galway         | Ireland     |
+| Pietraroja     | Canada      |
+| Moulins        | Canada      |
+| Anápolis       | Canada      |
+| Assen          | Ireland     |
+| Shimla         | Austria     |
+| ?slahiye       | Japan       |
+| Kailua         | Isle of Man |
+| Edmundston     | Austria     |
+| Satara         | Canada      |
+| Angers         | Canada      |
+| Siedlce        | Austria     |
+| Chestermere    | Ireland     |
+| Tirrases       | Canada      |
+| Zwickau        | Austria     |
+| Belfast        | Ireland     |
+| Horsham        | Isle of Man |
+| Chartres       | Isle of Man |
+| Rollegem       | Canada      |
+| Kraków         | Ireland     |
+| Bremerhaven    | Isle of Man |
+| Milena         | Japan       |
+| Cork           | Canada      |
+| Bozeman        | Japan       |
+| Pontevedra     | Japan       |
+| Bodmin         | Austria     |
+| Ogbomosho      | Isle of Man |
+| Denderbelle    | Isle of Man |
+| Baulers        | Canada      |
+| San Vicente    | Isle of Man |
+| Alness         | Austria     |
+| Springfield    | Canada      |
+| Abbeville      | Japan       |
+| San Francisco  | Canada      |
+| Lasnigo        | Ireland     |
+| Nagaon         | Isle of Man |
+| Terneuzen      | Ireland     |
+| Raj Nandgaon   | Ireland     |
+| Meridian       | Ireland     |
+| Mabompr?       | Canada      |
+| Calmar         | Canada      |
+| Hamburg        | Austria     |
+| Quesada        | Canada      |
+| Pabianice      | Isle of Man |
+| Dover          | Isle of Man |
+| Vienna         | Austria     |
+| Berlin         | Japan       |
+| Hillsboro      | Canada      |
++----------------+-------------+
+58 rows in set (0.01 sec)
