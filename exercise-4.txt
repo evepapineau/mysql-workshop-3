@@ -1,0 +1,7 @@
+mysql> SELECT AddressBook.name, Entry.firstName FROM AddressBook INNER JOIN Entry ON Entry.Id = AddressBook.Id WHERE AddressBook.name = 'Pharetra Ut Limited';
++---------------------+-----------+
+| name                | firstName |
++---------------------+-----------+
+| Pharetra Ut Limited | Faith     |
++---------------------+-----------+
+1 row in set (0.00 sec)
