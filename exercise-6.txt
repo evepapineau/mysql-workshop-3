@@ -1,0 +1,7 @@
+mysql> SELECT Phone.content, Entry.firstName, Entry.lastName FROM Phone INNER JOIN Entry ON Phone.Id=Entry.Id WHERE Entry.firstName='Charlotte' AND Entry.lastName='Jenkins';
++----------------+-----------+----------+
+| content        | firstName | lastName |
++----------------+-----------+----------+
+| (701) 887-9129 | Charlotte | Jenkins  |
++----------------+-----------+----------+
+1 row in set (0.01 sec)
