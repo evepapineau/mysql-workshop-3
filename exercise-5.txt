@@ -1,0 +1,7 @@
+mysql> SELECT Account.email, AddressBook.id FROM Account INNER JOIN AddressBook ON Account.Id=AddressBook.Id WHERE AddressBook.Id=100;
++---------------------------------------------+-----+
+| email                                       | id  |
++---------------------------------------------+-----+
+| ligula.Nullam.feugiat@ligulaDonecluctus.net | 100 |
++---------------------------------------------+-----+
+1 row in set (0.00 sec)
