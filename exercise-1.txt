@@ -1,0 +1,16 @@
+mysql> SELECT MAX(counted) FROM(SELECT Count(*) AS counted FROM AddressBook GROUP BY accountId) AS counts;
++--------------+
+| MAX(counted) |
++--------------+
+|           19 |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT MAX(counted) FROM(SELECT Count(*) AS counted FROM Entry GROUP BY addressbookId) AS counts;                                                       
++--------------+
+| MAX(counted) |
++--------------+
+|           52 |
++--------------+
+1 row in set (0.01 sec)
+
