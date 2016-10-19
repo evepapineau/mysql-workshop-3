@@ -1,1 +1,1 @@
-mysql> select country, count(country), from Address group by country order by count(country) desc;
+mysql> select lcase(country), count(*), from Address group by country order by count(country) desc;
