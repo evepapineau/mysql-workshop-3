@@ -1,0 +1,3 @@
+mysql> SELECT REPLACE (ElectronicMail.type, 'home', 'change') FROM ElectronicMail;
+mysql> SELECT REPLACE (ElectronicMail.type, 'work', 'home') FROM ElectronicMail
+mysql> SELECT REPLACE (ElectronicMail.type, 'change', 'work') FROM ElectronicMail;
